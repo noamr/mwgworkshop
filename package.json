@@ -1,0 +1,32 @@
+{
+  "name": "mwgworkshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noamr/mwgworkshop.git"
+  },
+  "author": "noamr@wix.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noamr/mwgworkshop/issues"
+  },
+  "homepage": "https://github.com/noamr/mwgworkshop#readme",
+  "devDependencies": {
+    "get-pixels": "^3.3.0",
+    "color-thief-jimp": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-compile-sass": "^3.0.4",
+    "express-jsx": "0.0.4",
+    "node-fetch": "^1.6.3",
+    "node-sass": "^3.13.0",
+    "path": "^0.12.7"
+  }
+}
