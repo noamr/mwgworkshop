@@ -6,7 +6,9 @@
 
     const isNaive = location.search === '?naive';
 
-    const buildGallery = isNaive ? buildGalleryNaive : buildGalleryFast;
+    const buildGallery = (images) => {
+        return isNaive ? buildGalleryNaive(images) : React.createElement(galleryComp, {images})
+    }
 
     function app()
     {
@@ -17,5 +19,3 @@
 
     window.addEventListener('load', app);
 })();
-
-
